@@ -1,0 +1,456 @@
+	/************************************************
+	
+		BACK UP, SON -- HULLABALOO 2013 WEBSITE
+		DESIGNED AND BUILT BY A.S. GRAPHIC STUDIO
+		http://asgraphicstudio.ucsd.edu
+	
+	*************************************************/
+	
+	body {
+		margin: 0;
+		padding: 0;
+		//background: url(images/hulla_siteTeaserBG_13Aug07.gif) no-repeat center center fixed; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		font-family: helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 16px;
+		}
+		
+	a:link, a:active, a:visited {
+		color: #59244d;
+		text-decoration: none;
+		}
+		
+	td {
+		vertical-align: top;
+		}
+		
+	/* SCROLLBAR */
+		
+	::-webkit-scrollbar-thumb:vertical {
+		background-color: #000; 
+		border: 3px solid #fff; 
+		height: 10px;
+		}
+	
+	::-webkit-scrollbar-thumb:horizontal {
+		background-color: #000; 
+		height:10px!important;
+		}
+	
+	::-webkit-scrollbar {
+		background-color: #fff; 
+		height:10px; 
+		width:12px;
+		}
+		
+	/* HEADER AND STICKY-NAVIGATION */
+		
+	#header {
+		margin: 40px auto; 
+		width: 900px; 
+		background: url('') center no-repeat;
+		}
+		
+	div#sticker {
+		z-index: 2000;
+		width: 860px;
+		padding:20px;
+		margin: 0px 0;
+		background: #000;
+		}
+		
+	#sticker a:link, #sticker a:active, #sticker a:visited {
+		margin: 8px;
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+		-webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	#sticker a:hover {
+		margin: 2px;
+		padding: 5px;
+		display: inline-block;
+		background-color: #401b35;
+		color: #000;
+		text-decoration: none;
+		text-shadow: 1px 1px #59244d;
+		}
+		
+	.stick {
+		opacity: 0.8;
+		position:fixed;
+		top:0px;
+		-webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	.stick:hover {
+		opacity: 1.0;
+		}
+			
+	/* CONTENT */
+			
+	#contentContainer {
+		margin: 0px auto;
+		width: 900px;
+		font-family: 'Montserrat', helvetica, sans-serif;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		}
+		
+	.contentPanel {
+		//margin-top: 20px;
+		margin-bottom: 40px; 
+		padding: 60px;
+		background-color: #f4f4f4;
+		border-bottom: 5px solid #000;
+		color: #000;
+		text-align: left;
+		text-transform: none;
+		}
+		
+	.contentPanel h1 {
+		//display: block;
+		padding-bottom: 25px;
+		border-bottom: 1px solid #ccc;
+		font-family: 'Montserrat', helvetica, sans-serif;
+		font-size: 25px;
+		color: #77135c;
+		text-transform: uppercase;
+		text-shadow:
+			3px 3px 0 #ccc,
+			-1px -1px 0 #ccc,  
+			1px -1px 0 #ccc,
+			-1px 1px 0 #ccc,
+			1px 1px 0 #ccc;
+		//-webkit-text-stroke: 1px #fff;
+		}
+		
+	.divvies {
+		display: none;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ccc;
+		}
+		
+	/* CONTENT - ARTIST */
+		
+	.contentArtist {
+		margin-top: 20px;
+		margin-bottom: 15px;
+		width: 780px;
+		height: 250px;
+		background: url('http://placehold.it/780x250') center no-repeat;
+		border-top: 2px solid #77135c;
+		}
+		
+	.contentArtist h2 {
+		display: block;
+		float: right;
+		position: relative;
+		top: 50px;
+		//width: 200px;
+		//height: 50px;
+		padding: 10px;
+		background-color: #f4f4f4;
+		font-family: 'Montserrat', helvetica, sans-serif;
+		font-size: 15px;
+		text-transform: uppercase;
+		text-align: right;
+		}
+		
+	table.artistSM {
+		width: 100%;
+		}
+		
+	td.artistSM {
+		padding: 5px;
+		background-color: #000;
+		border-right: 3px double #fff;
+		border-bottom: 3px double #fff;
+		font-size: 10px;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-shadow: 2px 2px #1d1d1d;
+		-webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	td.artistSM a:link, td.artistSM a:active, td.artistSM a:visited {
+		color: #fff;
+		}
+		
+	td.artistSM:hover {
+		padding: 5px;
+		background-color: #401b35;
+		border-top: 3px double #fff;
+		border-left: 3px double #fff;
+		border-right: 0px double #000;
+		border-bottom: 0px double #000;
+		font-size: 10px;
+		color: #000;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-shadow: 1px 1px #59244d;
+		}
+
+		
+	/* CONTENT - FOOD */
+		
+	.contentFood img {
+		margin: 5px;
+		width: 220px;
+		height: 220px;
+		border: 10px solid transparent;
+		-webkit-border-radius: 220px 220px 220px 220px;
+		-moz-border-radius: 220px; 
+		text-align: center;
+		box-shadow:   0 0 0 1px #77135c; 
+		-moz-box-shadow:   0 0 0 1px #77135c; 
+		-webkit-shadow:  0 0 0 1px #77135c;
+		-webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        filter: grayscale(0%);
+        -webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	.contentFood img:hover {
+		-webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        filter: grayscale(100%);
+		}
+		
+	.contentFood h2 {
+		padding-bottom: 10px;
+		//border-bottom: 1px solid #ccc;
+		font-family: 'Montserrat', helvetica, sans-serif;
+		font-size: 15px;
+		text-transform: uppercase;
+		text-align: center;
+		text-shadow:
+			3px 3px 0 #ccc,
+		}
+		
+	.contentFood {
+		float: left;
+		//padding-left: 5px;
+		//padding-right: 5px;
+		//width: 450px;
+		text-align: left;
+		}
+		
+	/* CONTENT - AMUSEMENTS */
+	
+	td.contentRides {
+		//padding-left: 5px;
+		//padding-right: 5px;
+		width: 350px;
+		text-align: center;
+		}
+		
+	.contentRides img {
+	 	margin-bottom: 10px;
+		width: 220px;
+		height: 220px;
+		border: 10px solid transparent;
+		-webkit-border-radius: 220px 220px 220px 220px;
+		-moz-border-radius: 220px; 
+		text-align: center;
+		box-shadow:   0 0 0 1px #77135c; 
+		-moz-box-shadow:   0 0 0 1px #77135c; 
+		-webkit-shadow:  0 0 0 1px #77135c;
+		 -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        filter: grayscale(0%);
+        -webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	.contentRides img:hover {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        filter: grayscale(100%);
+		}
+		
+		
+	.contentRides h2 {
+		padding-bottom: 10px;
+		//border-bottom: 1px solid #ccc;
+		font-family: 'Montserrat', helvetica, sans-serif;
+		font-size: 15px;
+		text-transform: uppercase;
+		text-align: center;
+		text-shadow:
+			3px 3px 0 #ccc,
+		}
+		
+	.contentRidesIn {
+		//width: 350px;
+		font-size: 10px;
+		text-align: left;
+		}
+		
+	/* CONTENT - MERCH */
+	
+	.contentMerch {
+		display: inline-block;
+		margin: 10px;
+		width: 215px;
+		height: 215px;
+		border: 10px solid #f4f4f4;
+		-webkit-border-radius: 215px 215px 215px 215px;
+		-moz-border-radius: 215px; 
+		text-align: center;
+		box-shadow:   0 0 0 1px #77135c; 
+		-moz-box-shadow:   0 0 0 1px #77135c; 
+		-webkit-shadow:  0 0 0 1px #77135c;
+		-webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        filter: grayscale(0%);
+        -webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	.contentMerch:hover {
+        //-webkit-filter: grayscale(100%);
+       // -moz-filter: grayscale(100%);
+        //filter: grayscale(100%);
+		}
+		
+	.contentMerchIn {
+		opacity: 0.0;
+		width: 175px;
+		height: 115px;
+		padding: 10px;
+		padding-top: 70px;
+		background-color: #77135c;
+		border: 10px solid transparent;
+		-webkit-border-radius: 195px 195px 195px 195px;
+		-moz-border-radius: 195px; 
+		font-size: 35px;
+		color: #fff;
+		line-height: 25px;
+		text-transform: uppercase;
+		text-shadow: 2px 2px #000;
+		-webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	.contentMerch:hover .contentMerchIn {
+		opacity: 0.8;
+		}
+		
+	.contentMerchIn a:link, .contentMerchIn a:active, .contentMerchIn a:hover, .contentMerchIn a:visited {
+		color: #fff;
+		}
+	
+	/* FOOTER */
+		
+	#footer {
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		width: 100%;
+		background-color: #000;
+		}
+	
+	.footerIn {
+		margin: 0 auto;
+		width: 840px;
+		padding: 50px;
+		color: #fff;
+		text-align: center;
+		}
+		
+	.footerIn h1 {
+		font-family: 'Montserrat', helvetica, sans-serif;
+		font-size: 13px;
+		text-transform: uppercase;
+		}
+		
+	.footerIn img {
+		margin: 10px;
+		}
+		
+	.copyright {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px;
+		font-size: 8px;
+		color: #fff;
+		text-align: right;
+		text-transform: uppercase;
+		}
+		
+	#socialMeds {
+		z-index: 1050;
+		position: fixed;
+		display: block;
+		top: 100px;
+		right: 0px;
+		width: 100px;
+		height: 200px;
+		//background-color: #fff;
+		}
+		
+	.socialButts {
+		display: block;
+		float: right;
+		margin: 0px auto;
+		margin-bottom: 3px;
+		width: 50px;
+		height: 30px;
+		padding-top: 20px;
+		background-color: #fff;
+		//-webkit-border-radius: 50px 50px 50px 50px;
+		//-moz-border-radius: 50px; 
+		font-size: 30px;
+		font-weight: bold;
+		color: #000;
+		text-align: center;
+		text-shadow: 1px 1px #ccc; 
+		-webkit-transition: 0.2s all ease-in-out; 
+		-moz-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; 
+		}
+		
+	.socialButts:hover {
+		width: 60px;
+		border-left: 20px solid #77135c;
+		}
+		
+	#socialMeds img {
+		margin-top: -15px;
+		width: 40px;
+		height: 40px;
+		}
+		
+	/***** added by T$$ *****/
+	h3 {
+		font-size:20px;
+		}
+		
+	h4 {	
+		font-weight:bold;
+		}

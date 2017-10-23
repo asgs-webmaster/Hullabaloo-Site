@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="address=no,telephone=no" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/h13style.css" />
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+	<title>
+	Hullabaloo 2016 | UCSD
+	</title>
+
+
+
+	<!-- FOR STICKY NAVI -->
+	<!-- APPROPRIATED FROM http://www.pixelbind.com/make-a-div-stick-when-you-scroll/ -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var s = $("#sticker");
+			var pos = s.position();
+			$(window).scroll(function() {
+				var windowpos = $(window).scrollTop();
+				//s.html("Distance from top:" + pos.top + "<br />Scroll position: " + windowpos);
+				if (windowpos >= pos.top) {
+					s.addClass("stick");
+				} else {
+					s.removeClass("stick");
+				}
+			});
+		});
+	  </script>
+
+
+	<!-- FOR SCROLL TO TOP -->
+	<script type="text/javascript">
+
+			/***********************************************
+			* Scroll to Top link- By Dynamic Drive (www.dynamicdrive.com)
+			* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+			***********************************************/
+
+			function dd_scrolltotop(duration){
+				duration = duration || 500
+				var rootel = (document.compatMode =="BackCompat")? document.body : document.documentElement
+				if (rootel.scrollTop == 0) // in some browsers such as Chrome, use document.body instead of document.documentElement
+					rootel = document.body
+				var curscrolltop = rootel.scrollTop, scrolltimer, elapsedtime, starttime = new Date().getTime(), animatedegree = 0
+				var totaldis = curscrolltop
+				clearTimeout(scrolltimer)
+				function jumptop(){
+					elapsedtime = new Date().getTime() - starttime
+					if (elapsedtime < duration){
+						rootel.scrollTop = totaldis - (totaldis * (1-Math.cos((elapsedtime/duration)*Math.PI)) / 2)
+						scrolltimer = setTimeout(function(){jumptop()}, 10)
+					}
+				}
+				jumptop()
+			}
+
+			</script>
+
+
+	<!-- FOR ROTATING BACKGROUND ON REFRESH -->
+		<script type="text/javascript">
+		function randomize(min, max) {
+			if (!min)
+				min = 0;
+			if (!max)
+				max = 1;
+			return Math.floor(Math.random()*(max+1)+min);
+		}
+		function randomBg() {
+			var bgs = new Array();
+			bgs.push("images/h16_splashBG_16oct24.gif");
+			bgs.push("images/h16_splashBG_16oct24.gif");
+			bgs.push("images/h16_splashBG_16oct24.gif");
+			document.body.style.backgroundImage = "url(" + bgs[randomize(0, bgs.length-1)] + ")";
+		}
+		</script>
+
+		<!-- Google Analytics Website Tracking — please do not remove. -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30719938-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+<body onLoad="randomBg()">
+
+<div id="header">
+	<center>
+	<img src="images/h16_splashtext_16Oct26.png" width="432px" height="405px">
+	</center>
+<a name="event"></a>
+</div>
+
+	<div id="contentContainer">
+
+		 <div id="sticker">
+			<a href="#event">Event</a> &bull;
+			<a href="#artists">Artists</a> &bull;
+			<a href="#food">Food</a> &bull;
+			<a href="#amusements">Amusements</a> &bull;
+			<a href="#volunteers">Volunteers</a> &bull;
+			<a href="#safety">Safety</a> &bull;
+			<a href="#merch">Merchandise</a> &bull;
+			<a href="http://founders.ucsd.edu">Founders</a> &bull;
+			<a href="javascript:dd_scrolltotop()">Back to Top</a>
+		 </div>
+		 <div class="clear"></div>
+
+
+		<div class="contentPanel">
+
+			<h1>Event</h1>
+
+			<div class="H12vid" style="display: none;">
+			<center>
+				<iframe src="http://player.vimeo.com/video/51373666" width="780" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</center>
+			</div>
+
+			<table>
+			<tr>
+				<td width="50%">
+				<p>
+				ASCE is proud to present the sixth annual Hullabaloo, a festival held in the urban center of UCSD as part of the <a href="http://founders.ucsd.edu">Founders</a> Celebration. Hullabaloo will transform a familiar part of campus into a festival ground, with a dance stage located in the Town Square, amusement rides in Matthews Quad, and vendors located throughout the venue.
+				</p>
+
+				<p>
+				<a href="https://www.facebook.com/HullabalooUCSD">Like us on Facebook</a> to receive the latest updates about Hullabaloo 2016!
+				</p>
+				</td>
+				<td width="50%" style="padding-left: 20px;">
+					<table cellspacing="5px">
+					<tr>
+						<td>
+						<b>Location</b>
+						</td>
+						<td>
+						<a href="http://maps.ucsd.edu/mapping/viewer/default.htm?mkey=1&lc=open&km=open&rc=closed&zoom=6&X=0.53&Y=0.47&layers=None&background=2&label=0&overlays=None&selectedTab=1">Town Square and Matthews Quad</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Date</b>
+						</td>
+						<td>
+						Friday, November 18, 2016
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Time</b>
+						</td>
+						<td>8:00pm — 12:00am
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Admission</b>
+						</td>
+						<td>
+						Free | UCSD undergraduates only
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Registration</b>
+						</td>
+						<td>
+						is from 12:00 PM (noon) to 11:00 PM on Friday, November 18th. Come to Town Square (near the Triton Statue) with your valid undergraduate student ID to scan in and receive a wristband from the ASCE Presents: Hullabaloo tent. WRISTBANDS ARE LIMITED AND ARE FIRST COME, FIRST SERVE! Come early to ensure you receive a wristband for entry into the event at 8:00 PM. There will be no re-entry into the festival.
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+						<!--<a href="https://www.facebook.com/events/669264169775168/">RSVP on Facebook.</a>-->
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+
+			<a name="artists"></a>
+		</div>
+
+
+		<div class="contentPanel">
+
+			<h1>Artists</h1>
+
+			<!--<div class="contentArtist" style="background: url('images/h14_artistcomingsoon.jpg');">
+				<h2>Lineup Coming Soon.</h2>
+			</div>
+
+			<div>
+			<p>Follow <a href="https://www.facebook.com/HullabalooUCSD">Hullabaloo on Facebook</a> to get quick and easy updates on everything related to the Hullabaloo Festival!</p>
+			</div>-->
+
+			<div class="contentArtist" style="background: url('images/h16_artist_isaiahrashad.jpg');">
+				<h2>Isaiah Rashad</h2>
+			</div>
+
+			<table class="artistSM">
+			<tr>
+				<td class="artistSM">
+					<a href="https://www.facebook.com/IsaiahRashad/" target="_blank">Facebook</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://open.spotify.com/artist/6aaMZ3fcfLv4tEbmY7bjRM/" target="_blank">Spotify</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://soundcloud.com/isaiah_rashad/" target="_blank">Soundcloud</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://www.instagram.com/isaiahrashad/" target="_blank">Instagram</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://twitter.com/isaiahrashad/" target="_blank">Twitter</a>
+				</td>
+			</tr>
+			</table>
+
+
+			<div class="divvies"></div>
+
+			<div class="contentArtist" style="background: url('images/h16_artist_andrewluce.jpg');">
+				<h2>Andrew Luce</h2>
+			</div>
+
+			<table class="artistSM">
+			<tr>
+				<td class="artistSM">
+					<a href="https://www.facebook.com/andrewlucemusic/" target="_blank">Facebook</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://open.spotify.com/artist/0z7eJBsoFLyZomJS8vQo8R/" target="_blank">Spotify</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://soundcloud.com/andrewlucemusic" target="_blank">Soundcloud</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://www.instagram.com/andrewluce/" target="_blank">Instagram</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://twitter.com/AndrewLuceMusic/" target="_blank">Twitter</a>
+				</td>
+			</tr>
+			</table>
+
+
+			<div class="divvies"></div>
+
+			<div class="contentArtist" style="background: url('images/h16_artist_tennyson.jpg');">
+				<h2>Tennyson</h2>
+			</div>
+
+			<table class="artistSM">
+			<tr>
+				<td class="artistSM">
+					<a href="https://www.facebook.com/tennysonmusic/" target="_blank">Facebook</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://open.spotify.com/artist/3Nb8N20WChM0swo5qWTvm8/" target="_blank">Spotify</a>
+				</td>
+				<td class="artistSM">
+					<a href=" https://soundcloud.com/tennysonmusic/" target="_blank">Soundcloud</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://www.instagram.com/tennysonmusic/" target="_blank">Instagram</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://twitter.com/tennysonmusic/" target="_blank">Twitter</a>
+				</td>
+			</tr>
+			</table>
+
+
+			<!--div class="divvies"></div>
+
+			<div class="contentArtist" style="background: url('images/h15_artistsoon_15oct8.jpg');">
+				<h2>DJ</h2>
+			</div11-->
+
+			<!--table class="artistSM">
+			<tr>
+				<td class="artistSM">
+					<a href="https://www.facebook.com/averyunofficialmusic">Facebook</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://twitter.com/averyunofficial">Twitter</a>
+				</td>
+				<td class="artistSM">
+					<a href="https://soundcloud.com/averyunofficial">Soundcloud</a>
+				</td>
+			</tr>
+			</table-->
+
+			<br><br>
+
+			<a name="food"></a>
+		</div>
+
+		<div class="contentPanel">
+
+			<h1>Food</h1>
+
+			<!--p>
+			Vendors will only be accepting cash!
+			</p-->
+
+			<table class="contentRides">
+			<tr>
+				<td class="contentRides">
+				<img src="images/h16_food-tacovilla.jpg">
+				<h2>Taco Villa</h2>
+				<div class="contentRidesIn">
+				<center>Pollo Asado<br>
+				Al Pastor<br>
+				Veggie Avocado<br>
+				<i>Two tacos for $3.00</i></center>
+				</div>
+				</td>
+
+				<td class="contentRides">
+				<img src="images/h16_food-fotw.jpg">
+				<h2>HDH Flavors of the World</h2>
+				<div class="contentRidesIn">
+				<center>Pacific Pulled Pork Sliders<br>
+				Korean Chicken Sliders<br>
+				Tofu Banh Mi Sliders</center>
+				</div>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td class="contentRides">
+				<img src="images/h16_food-gtg.jpg">
+				<h2>HDH Goody's to Go</h2>
+				<div class="contentRidesIn">
+				<center>Achiote Chicken Burrito<br>
+				Fajitas Tofu Burrito</center>
+				</div>
+				</td>
+
+				<td class="contentRides">
+				<img src="images/h15_food-yw.jpg">
+				<h2>Yogurt World</h2>
+				<div class="contentRidesIn">
+				<center>Hours: 9:00 AM - 12:00 AM (Open during Hullabaloo)</center>
+				</div>
+				</td>
+
+			</tr>
+
+			</table>
+
+
+			<!--div class="contentArtist" style="background: url('images/h16_artistsoon_15oct8.jpg');">
+				<h2>Vendors Coming Soon</h2>
+			</div>
+
+			<div>
+			<p>Stay tuned to see what food vendors will be at Hullabaloo 2016!</p>
+			</div-->
+
+		<a name="amusements"></a>
+			</div>
+
+		<div class="contentPanel">
+
+			<h1>Amusements</h1>
+
+			<p>
+			Here are some things you should know about the amusement rides:
+			</p>
+			<ul>
+				<li>Students who wish to ride <em>must</em> bring a valid UCSD undergraduate student ID to obtain a wristband.</li>
+				<li>Students <em>must</em> have a wristband to ride.</li>
+				<li>Students will only be issued one wristband.</li>
+				<!--li>Wristbands will be distributed at the ASCE booth in Town Square from 12:30pm to 11pm.</li>-->
+				<li>Amusements will operate from 8pm to 11:45pm.</li>
+				<li>In an effort to ensure each patron in line can ride, amusement lines may be closed earlier than 11:45pm; however, amusements will still operate until 11:45pm.</li>
+			</ul>
+
+			<table class="contentRides">
+			<tr>
+
+				<td class="contentRides">
+				<img src="images/h16_rides-zipper.jpg">
+				<h2>Zipper</h2>
+				<div class="contentRidesIn">
+				In an adrenaline packed whirl of unpredictability, the Zipper has truly earned its right as the festival centerpiece. The Zipper allows riders to experience the world upside down and spun around with free-flipping cars that rotate like a Ferris Wheel!
+				</div>
+				</td>
+
+				<td class="contentRides">
+				<img src="images/h16_rides-roundup.jpg">
+				<h2>Round Up</h2>
+				<div class="contentRidesIn">
+				A classic carnival staple, the Round Up is a Hullabaloo veteran. Step on up and immerse yourself in the ride’s dazzling colors and lights. Explore the world from a blend of visuals and audio in a way you have never imagined!
+				</div>
+				</td>
+
+				<td class="contentRides">
+				<img src="images/h16_rides-hurricane.jpg">
+				<h2>Hurricane</h2>
+				<div class="contentRidesIn">
+				The Hurricane is a cult favorite for those who love the feeling of fast-paced rotation combined with weightlessness. The ride starts off slow, but soon a centrifugal force will have you ripping through the air at death-defying speeds. Come fly through the eye of the hurricane!
+				</div>
+				</td>
+			</tr>
+
+			<!--tr>
+				<td class="contentRides">
+				<img src="images/h15_rides-zipline.jpg">
+				<h2>Zipline</h2>
+				<div class="contentRidesIn">
+				The initial drop will take your breath away, and then let the smiles take over the rest of your ride! Soar through the air and scope the festival from Town Square to Matthews Quad. Over the span of 200 feet, you will be able to travel down Rupertus Lane like you never have before!
+				</div>
+				</td>
+			</tr-->
+			</table>
+
+			<a name="volunteers"></a>
+		</div>
+
+		<div class="contentPanel">
+
+			<!--h1>Student Orgs</h1>
+
+			<p>
+			If you are a student organization looking to recruit, fundraise, or raise awareness this year, apply for a free booth at Hullabaloo! We are looking for activity booths to complement the festival. Booth applications will be approved based upon creativity and time of receipt as spots are limited. Food distribution or sales will not be permitted.
+			</p>
+
+			<p>
+			As an extra bonus, there will be prizes for student orgs for the following categories:
+			</p>
+
+			<table width="300px">
+			<tr>
+				<td>
+				<b>$150</b>
+				</td>
+				<td>
+				Most Creative Booth Design
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<b>$150</b>
+				</td>
+				<td>
+				Best Booth Activity
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<b>$100</b>
+				</td>
+				<td>
+				Raffle Prize
+				</td>
+			</tr>
+			</table>
+
+			<p>
+			Here are some booth ideas to consider:
+			</p>
+
+			<table width="400px">
+			<tr>
+				<td>
+				<ul>
+				<li>Photo booth</li>
+				<li>Face painting</li>
+				<li>Prize wheel</li>
+				<li>Balloon animals</li>
+				<li>Arts and crafts</li>
+				<li>Fortune telling</li>
+				<li>Food vendor</li>
+				</ul>
+				</td>
+				<td>
+				<ul>
+				<li>Caricatures</li>
+				<li>Bean bag toss</li>
+				<li>Tic-tac-toe toss</li>
+				<li>Knock-the-bottle-pyramid</li>
+				<li>Ring toss</li>
+				<li>Mini basketball</li>
+				</ul>
+				</td>
+			</tr>
+			</table>
+
+			<p>
+			Please <a href='apps/h14_orgapp.pdf'>download the application</a> and turn it in at the ASCE office located on the fourth floor of Price Center or email it to ascefestivals@ucsd.edu. If you have any questions, feel free to email our Festivals Coordinator, <a href="mailto:seankennedy.ucsd@gmail.com">Sean</a>.
+			</p>
+
+			<br><br><br-->
+
+			<h1>Volunteers</h1>
+
+			<p>
+			Interested in volunteering at Hullabaloo?
+			<br>
+			<br>
+			The deadline to submit volunteer applications has been extended! Please <u><a href='https://docs.google.com/forms/d/e/1FAIpQLSfw3yNoEsbLg9xisnMXRtNNy86ukeZorf2DJ-JpurArU7-LPA/viewform' target="_blank">fill out the application</a></u>, and submit it by Wednesday, November 16th at 6:00pm. For any questions, please contact Carol Tang at ascechiefofstaff@ucsd.edu. Thank you and we look forward to seeing you at the biggest UCSD event of Fall Quarter!
+			</p>
+
+			<!--p>
+			Interested in volunteering at Hullabaloo?
+			<br>
+			<br>
+			Please contact Michelle Luong at ascechiefofstaff@ucsd.edu for more information on how to apply or if you have any questions. Thank you and we look forward to seeing you at the biggest UCSD event of Fall Quarter!
+			</p-->
+
+			<a name="safety"></a>
+		</div>
+
+
+		<div class="contentPanel">
+
+			<h1>Health & Safety</h1>
+
+			<p>
+			<h3>Drug Health and Safety</h3>
+			</p>
+
+			<table width="700px">
+			<tr>
+				<td>
+				<ul>
+				<li>Do NOT mix drugs and alcohol. There is no way to anticipate how your body will react to the mixture and the reaction could be very serious, and even fatal.</li>
+				<li>Remember: You never know what you are actually taking. Though distributors may assure you that you are getting a certain drug, there is a likelihood that this drug has been cut with something else, or is a different drug entirely. This is especially the case with pills. The wisest decision would be to not take this gamble.</li>
+				<li>If you do choose to engage in drug use:
+					<ul>
+						<li>Make sure to remain hydrated. But, be careful to not consume too much water at once-- this can lead to a life-threatening electrolyte imbalance in the body that can become fatal. A good rule of thumb is to drink about two cups of water (500ml) every hour. </li>
+						<li>If you do not feel well, seek help immediately! The symptoms of overdose for drugs can be the same, more exaggerated or totally different than those of alcohol.  As with alcohol, you SHOULD NOT SLEEP IT OFF. Tell someone immediately if you do not feel well and get help as fast as you can.</li>
+						<li>Remember: you WILL NOT be punished for your drug/alcohol use retroactively after seeking help from an official. Our utmost priority is your safety. </li>
+					</ul>
+				</li>
+				<li>For friends of friends who are engaging in drug use: </li>
+					<ul>
+						<li>Be a friend and monitor them at all times possible. </li>
+						<li>Make sure that they are drinking enough water and are doing alright. </li>
+						<li>Actions that are out of the ordinary/character of an individual or are extreme could indicate that other drugs or extremely high levels of alcohol are on board. Speak up if you notice such abnormal behavior. </li>
+						<li>By speaking up you could save your friend from serious harm, and could very well save their life.</li>
+					</ul>
+				</li>
+				</ul>
+				</td>
+			</tr>
+			</table>
+
+
+			<p>
+			<h3>Don't Booze And Lose</h3>
+			</p>
+
+			<table width="700px">
+			<tr>
+				<td>
+				<ul>
+				<li>Alternate non-alcoholic drinks (drink a glass of water between alcoholic drinks).</li>
+				<li>Determine in advance the number of drinks, and don’t exceed that!</li>
+				<li>Choose not to drink alcohol or use drugs.</li>
+				<li>Use a designated driver (DD’s qualify for great RADD Card discounts).</li>
+				<li>Sign up for <a href="http://as.ucsd.edu/saferides">A.S. Safe Rides</a>!</li>
+				<li>Eat before or during an event. Check out the great vendors at the event!</li>
+				<li>Tell your friends to let you know when you’ve had too much to drink.</li>
+				<li>Keep track of the number of drinks (especially the amount of liquor).</li>
+				<li>One drink = 12 oz beer, 5 oz wine, or 1.5 oz liquor.</li>
+				<li>Pace your drinks to one or less per hour.</li>
+				<li>Avoid drinking games.</li>
+				<li>Do not mix drugs and alcohol -- be aware of dangerous drug combinations that could result in illness or even death.</li>
+				<li>Watch over your friends and peers. If you see someone in health-threatening conditions, do not be afraid to reach out to a security guard, police officer, event staff or event volunteer to ask for help. Your health and safety is our first priority at Hullabaloo.</li>
+				</ul>
+				</td>
+			</tr>
+			</table>
+
+			<!--p>
+			<h3>Important Party Tips</h3>
+			</p>
+
+			<table width="700px">
+			<tr>
+				<td>
+				<ul>
+				<li>If approached by a police officer or staff member, comply with them. This will minimize your chances of further punishment and will help them get you the help you need.</li>
+				</ul>
+				</td>
+			</tr>
+			</table-->
+
+			<p>
+			<h3>RAP (Responsible Action Protocol)</h3>
+			<br>
+			Remember students, under UC San Diego’s Responsible Action Protocol (RAP), <u>students receiving medical assistance in an alcohol or controlled substance medical-related
+			emergency and students initiating medical assistance WILL NOT be subject to the formal student conduct process</u> if all of the following apply:
+			</p>
+
+			<table width="700px">
+			<tr>
+				<td>
+				<ul>
+				<li>The student requests OR another person contacts a House Advisor/Resident Advisor or other University Official (e.g. Police Officer, Residential Security Officer, etc.) for medical assistance on behalf of a student experiencing an alcohol or controlled substance medical-related emergency;</li>
+				<li>No other major Student Conduct Code violations (including, but not limited to, disorderly conduct, distribution of controlled substances, hazing, physical assault, vandalism, etc.) were committed by the student during the same incident; AND</li>
+				<li>The student has not received protection under this Protocol more than once in a two calendar year period.</li>
+				</ul>
+				</td>
+			</tr>
+			</table>
+
+			<b><center>Our utmost priority is that you, or a friend, seek help if needed!</center></b>
+
+			<p>
+			<h3>A.S. Safe Rides</h3>
+			</p>
+			<br>
+			UCSD Associated Students has teamed up with Uber to provide a <u><a href="http://as.ucsd.edu/saferides">safe ride</a></u> when you need it. Be sure to read all details carefully as restrictions apply.
+			<br><br>
+			<b>HOW IT WORKS:</b>
+			</p>
+
+			<table width="700px">
+			<tr>
+				<td>
+				<ul>
+				<li>Enter the promo code that you will receive once you have used the sign-up form below. Each quarter you will receive a new promo code. This will unlock 1 free ride up to $10 this quarter (redemption limits apply)</li>
+				<li>Request an Uber via the UCSD button within the app during the hours of 8PM-3AM, Wednesday-Sunday</li>
+				<li>Take a ride within the approved boundaries</li>
+				</ul>
+				</td>
+			</tr>
+			</table>
+
+			<br>
+			<b>EXISTING UBER USERS:</b>
+			</p>
+			<br>
+			Once you have received the promo code, enter it into the Promotions section of your app. This will unlock the UCSD button on your Uber app.
+			<br><br>
+
+			<br>
+			<b>NEW UBER USERS:</b>
+			</p>
+			<br>
+			Click <a href="https://get.uber.com/go/">here</a> to sign up and download the Uber app on your phone. Once you have received teh promo code, enter it into the Promotions section of your app. This will unlock the UCSD button on your Uber app.
+			<br><br>
+
+			<br>
+			<b>IMPORTANT DETAILS:</b>
+			</p>
+
+			<table width="700px">
+			<tr>
+				<td>
+				<ul>
+				<li>The UCSD button will allow for 1 ride up to $10 (until redemption limits are hit).</li>
+				<li>You must request from the UCSD button in order for UCSD to cover the cost of the ride (up to $10).</li>
+				<li>Rides will only be covered by UCSD between the hours of 8PM-3AM, Wednesday-Sunday (up to $10).</li>
+				<li>You must have a ucsd.edu email address linked to your Uber account in order to use the UCSD button in the app. Need to change the email address on your account? See instructions below.</li>
+				<li>Rides requested via the UCSD button must begin or end within approved boundaries (see map). Rides taken OUTSIDE of the approved boundaries will NOT be covered by UCSD.</li>
+				<li>Promotion will expire when maximum redemption limits are hit or on December 10, 2016</li>
+				</ul>
+				</td>
+			</tr>
+			</table>
+
+			<br>
+			<b>EMAIL ADDRESS UPDATE:</b>
+			</p>
+			<br>
+			You must have a ucsd.edu email address linked to your Uber account in order to use the UCSD button in the app. If your account is tied to your personal email address, you can update your account information by following these steps:
+
+			<table width="700px">
+			<tr>
+				<td>
+				<ol>
+				<li>Sign in to your Uber account from your mobile device</li>
+				<li>Click on the "Settings" tab</li>
+				<li>Select "Edit Account"</li>
+				<li>Update your email address to your ucsd.edu email</li>
+				</ol>
+				</td>
+			</tr>
+			</table>
+
+			<a name="merch"></a>
+		</div>
+
+
+
+		<div class="contentPanel">
+
+		<h1>Merchandise</h1>
+		<!--div class="contentArtist" style="background: url('images/h16_merchcomingsoon.jpg');">
+				<h2>Merch Coming Soon</h2>
+			</div>
+
+			<div>
+			<p>Follow <a href="https://www.facebook.com/tritonoutfitters">Triton Outfitters on Facebook</a> to get updates on Hullabaloo Festival merch!</p>
+			</div-->
+
+			<div class="contentMerch" style="background: url('images/h16_merch-pocket.jpg') center;">
+				<div class="contentMerchIn">
+				<a href="http://to.ucsd.edu/collections/hullabaloo/products/hullabaloo-2016-pocket-t-shirt" target="_blank">
+				$16<br>
+				<font style="font-size: 10px;">Click to buy now online!</font>
+				</a>
+				</div>
+			</div>
+
+			<div class="contentMerch" style="background: url('images/h16_merch-ls.jpg') center;">
+				<div class="contentMerchIn">
+				<a href="http://to.ucsd.edu/collections/hullabaloo/products/hullabaloo-2016-long-sleeve-t-shirt" target="_blank">
+				$19<br>
+				<font style="font-size: 10px;">Click to buy now online!</font>
+				</a>
+				</div>
+			</div>
+
+			<div class="contentMerch" style="background: url('images/h16_merch-tank.jpg') center;">
+				<div class="contentMerchIn">
+				<a href="http://to.ucsd.edu/collections/hullabaloo/products/hullabaloo14-tank" target="_blank">
+				$10<br>
+				<font style="font-size: 10px;">Click to buy now online!</font>
+				</a>
+				</div>
+			</div>
+
+			<br><br>
+			<center>
+			Merchandise available at <a href="http://to.ucsd.edu">Triton Outfitters</a>, online and in-store.
+			</center>
+
+		</div>
+
+	</div>
+
+<div style="clear:both;"></div>
+
+	<div class="copyright">
+	Website by <a href="http://asgraphicstudio.ucsd.edu"><img src="images/sponsors/Hulla_sponsorASGS_o.png" width="55px" height="19px"></a>
+	</div>
+
+<div id="footer">
+	<div class="footerIn">
+	<h1>SPONSORED BY:</h1><br>
+
+	<a href="http://asce.ucsd.edu"><img src="images/sponsors/Hulla_sponsorASCE.png"></a>
+	<a href="http://universitycenters.ucsd.edu/"><img src="images/sponsors/Hulla_sponsorUCen.png"></a>
+	<!--<a href="http://dlush.com"><img src="images/sponsors/Hulla_sponsorDlush.png"></a>-->
+	<a href="http://ucsandiegobookstore.com/"><img src="images/sponsors/h16_Bookstore.png"></a>
+	<a href="http://ucsandiegobookstore.com/"><img src="images/sponsors/h16_Perks.png"></a>
+	<a href="http://asgraphicstudio.ucsd.edu"><img src="images/sponsors/Hulla_sponsorASGS.png"></a>
+	<a href="http://as.ucsd.edu"><img src="images/sponsors/Hulla_sponsorAS.png"></a>
+	<a href="https://www.hersheys.com/icebreakers"><img src="images/sponsors/h16_Icebreakers.png"></a>
+	</div>
+
+</div>
+
+<div id="socialMeds">
+	<a href="https://www.facebook.com/ucsdasce">
+	<div class="socialButts">
+		<img src="images/h16_sm-facebook.png">
+	</div>
+	</a>
+	<div style="clear:both;"></div>
+	<a href="https://twitter.com/ucsdasce">
+	<div class="socialButts">
+		<img src="images/h16_sm-twitter.png">
+	</div>
+	</a>
+	<div style="clear:both;"></div>
+	<a href="http://founders.ucsd.edu">
+	<div class="socialButts">
+		fd
+	</div>
+	</a>
+</div>
+
+</body>
+
+</html>
