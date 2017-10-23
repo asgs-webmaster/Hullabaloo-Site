@@ -16,26 +16,20 @@
 <!-- Load Google jQuery API -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  
-<!-- Link Restive.JS -->
-<!--<script type="text/javascript" src="restive.min.js"></script> -->
- 
-<!-- Energize Restive.JS 
-<script type="text/javascript">
-      $(document).ready(function () {
-            $('body').restive(options);
-      });
-</script> -->
+<!-- Install Restive.JS -->
 
-<!-- Breakpoints  
+<script type="text/javascript" src="js/restive.min.js"></script>
+
+<!-- Configure Restive.JS -->
 <script>
-$(document).ready(function () {
-    $('body').restive({
-        breakpoints: ['240', '320', '480', '640', '960', '1024', '1280'],
-        classes: ['css-240', 'css-320', 'css-480', 'css-640', 'css-960', 'css-1024', 'css-1280'],
-        force_dip: true
+    $( document ).ready(function() {
+        $('body').restive({
+            breakpoints: ['10000'],
+            classes: ['nb'],
+            turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet,is_portrait=portrait,is_landscape=landscape'
+        });
     });
-});
-</script> -->
+</script>
 
 	<title>
 	Hullabaloo 2016 | UCSD
