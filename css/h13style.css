@@ -62,61 +62,28 @@
 		width: 860px;
 		padding:20px;
 		margin: 0px 0;
-		background: #D76F44;
+		background: #000;
 		}
 		
 	#sticker a:link, #sticker a:active, #sticker a:visited {
-		margin: 20px;
+		margin: 8px;
 		display: inline-block;
 		color: #fff;
 		text-decoration: none;
-		width:0px;
-		/*white-space: nowrap;*/
-		height: 25px;
-		border-bottom: 3px solid transparent;
-		transition: 0.5s ease;
-		/*-webkit-transition: 0.2s all ease-in-out; 
+		-webkit-transition: 0.2s all ease-in-out; 
 		-moz-transition: 0.2s all ease-in-out; 
-		o-transition: 0.2s all ease-in-out; */
+		o-transition: 0.2s all ease-in-out; 
 		}
-
-	#sticker a:hover{
-		border-bottom: 3px;
-		border-color: #fff;
-		width: 100%;
-	}
-
-	/*#sticker a:before{
-		content:"";
-		position:absolute;
-		width: 100%;
-		height: 2px;
-		bottom: 0;
-		left:0;
-		background-color: #F4F4F4;
-		visibility: hidden;
-		-webkit-transform: scaleX(0);
-		transform: scaleX(0);
-		-webkit-transition: all 0.3s ease-in-out 0s;
-		transition: all 0.3 ease-in-out 0s;
-
-	}
 		
-	#sticker a:hover:before {
-		visibility: visible;
-		-webkit-transform: scaleX(1);
-		transform: scaleX(1);
-		/*position: relative;
+	#sticker a:hover {
 		margin: 2px;
 		padding: 5px;
 		display: inline-block;
-		background-color: #D76F44;
-		color: #260004;
+		background-color: #401b35;
+		color: #000;
 		text-decoration: none;
-		text-shadow: 1px 1px #59244d; 
-		}*/
-
-	
+		text-shadow: 1px 1px #59244d;
+		}
 		
 	.stick {
 		opacity: 0.8;
