@@ -79,8 +79,8 @@
 		display: inline-block;
 		background-color: #D76F44;
 		color: #000;
-		text-decoration: none;
-		text-shadow: 1px 1px #260004;
+		text-decoration: underline;
+		/*text-shadow: 1px 1px #260004;*/
 		}
 		
 	.stick {
