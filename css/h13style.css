@@ -70,34 +70,11 @@
 		display: inline-block;
 		color: #fff;
 		text-decoration: none;
-		position: relative;
-		/*
 		-webkit-transition: 0.2s all ease-in-out; 
 		-moz-transition: 0.2s all ease-in-out; 
-		o-transition: 0.2s all ease-in-out; */
+		o-transition: 0.2s all ease-in-out; 
 		}
 		
-	#sticker a:after{
-		content:"";
-		position: absolute;
-		z-index: -1;
-	    right: 0;
-	    width: 0;
-	    bottom: -5px;
-	    background: #000;
-	    height: 4px;
-	    transition-property: width;
-	    transition-duration: 0.3s;
-	    transition-timing-function: ease-out;
-		}
-
-	#sticker a:hover:after, a:focus:after, a:active:after{
-		left: 0;
-		right: auto;
-		width: 100%;
-	}
-
-	/*	
 	#sticker a:hover {
 		content: "";
 		position: absolute;
@@ -106,20 +83,17 @@
 		width: 0%;
 		border-bottom: 2px solid #fff;
 		transition: 0.4s;
-		display: inline-block;
-		text-decoration: none;
-		margin:8px;
-		/*margin: 2px;
+		margin: 2px;
 		padding: 5px;
-		
+		display: inline-block;
 		background-color: #401b35;
 		color: #000;
-		
+		text-decoration: none;
 		text-shadow: 1px 1px #59244d;
-		}*/
-
+		}
+		
 	#sticker a:hover:after{
-		border-width: 100%;
+		width: 100%;
 	}
 		
 	.stick {
