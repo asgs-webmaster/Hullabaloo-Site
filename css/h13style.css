@@ -86,12 +86,14 @@
 		border-bottom: 2px solid #fff;
 		transition: 0.4s;
 		display: inline-block;
+		text-decoration: none;
+		margin:8px;
 		/*margin: 2px;
 		padding: 5px;
 		
 		background-color: #401b35;
 		color: #000;
-		text-decoration: none;
+		
 		text-shadow: 1px 1px #59244d;*/
 		}
 
