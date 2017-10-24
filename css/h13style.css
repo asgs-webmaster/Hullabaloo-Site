@@ -66,13 +66,14 @@
 		}
 		
 	#sticker a:link, #sticker a:active, #sticker a:visited {
-		margin: 8px;
+		margin: 0px;
 		display: inline-block;
 		color: #fff;
 		text-decoration: none;
+		/*
 		-webkit-transition: 0.2s all ease-in-out; 
 		-moz-transition: 0.2s all ease-in-out; 
-		o-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; */
 		}
 		
 	#sticker a:hover {
