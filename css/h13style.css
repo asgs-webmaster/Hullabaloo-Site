@@ -76,6 +76,13 @@
 		}
 		
 	#sticker a:hover {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0%;
+		border-bottom: 2px solid #fff;
+		transition: 0.4s;
 		margin: 2px;
 		padding: 5px;
 		display: inline-block;
@@ -84,6 +91,10 @@
 		text-decoration: none;
 		text-shadow: 1px 1px #59244d;
 		}
+		
+	#sticker a:hover:after{
+		width: 100%;
+	}
 		
 	.stick {
 		opacity: 0.8;
