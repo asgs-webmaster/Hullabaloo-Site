@@ -66,10 +66,11 @@
 		}
 		
 	#sticker a:link, #sticker a:active, #sticker a:visited {
-		margin: 20px;
+		margin: 8px;
 		display: inline-block;
 		color: #fff;
 		text-decoration: none;
+		position: relative;
 		/*
 		-webkit-transition: 0.2s all ease-in-out; 
 		-moz-transition: 0.2s all ease-in-out; 
