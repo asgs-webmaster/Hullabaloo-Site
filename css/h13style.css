@@ -74,14 +74,27 @@
 		-moz-transition: 0.2s all ease-in-out; 
 		o-transition: 0.2s all ease-in-out; 
 		}
+
+	#sticker a:after{
+		content: "";
+		display: block;
+		margin: auto;
+		height: 3px;
+		width: 0px;
+		transition: width .5s ease-in-out;
+	}
+
+	#sticker a:hover:after{
+		width: 100%;
+	}
 		
-	#sticker a:hover {
+	/*#sticker a:hover {
 		display: inline-block;
 		background-color: #D76F44;
-		color: #000;
+		color: #fff;
 		text-decoration: underline;
-		/*text-shadow: 1px 1px #260004;*/
-		}
+		text-shadow: 1px 1px #260004;
+		}*/
 		
 	.stick {
 		opacity: 0.8;
