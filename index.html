@@ -5,6 +5,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- VIEWPORT -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -12,10 +13,43 @@
 <link rel="shortcut icon" href="images/favicon.ico" />
 <link rel="stylesheet" href="css/h13style.css" />
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/font-awesome.css">
+<!-- Bootstrap CDN -
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+
+<style type="text/css">
+	
+
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+</style>
 
 <!-- Load Google jQuery API -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 
+
+<!-- Font Awesome --> 
+<script src="https://use.fontawesome.com/7fb36f1963.js"></script>
+
 <!-- Install Restive.JS -->
 
 <script type="text/javascript" src="restive.min.js"></script>
@@ -35,9 +69,6 @@ $( document ).ready(function() {
 	<title>
 	Hullabaloo 2016 | UCSD
 	</title>
-
-
-
 
 	<!-- FOR STICKY NAVI -->
 	<!-- APPROPRIATED FROM http://www.pixelbind.com/make-a-div-stick-when-you-scroll/ -->
@@ -89,25 +120,6 @@ $( document ).ready(function() {
 
 
 
-
-	<!-- FOR ROTATING BACKGROUND ON REFRESH 
-		<script type="text/javascript">
-		function randomize(min, max) {
-			if (!min)
-				min = 0;
-			if (!max)
-				max = 1;
-			return Math.floor(Math.random()*(max+1)+min);
-		}
-		function randomBg() {
-			var bgs = new Array();
-			bgs.push("images/h16_splashBG_16oct24.gif");
-			bgs.push("images/h16_splashBG_16oct24.gif");
-			bgs.push("images/h16_splashBG_16oct24.gif");
-			document.body.style.backgroundImage = "url(" + bgs[randomize(0, bgs.length-1)] + ")";
-		}
-		</script> -->
-
 		<!-- Google Analytics Website Tracking — please do not remove. -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -119,12 +131,74 @@ $( document ).ready(function() {
   ga('send', 'pageview');
 
 </script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 
 <body background="images/h17_background.jpg">
+
+
+<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+<style type="text/css">
+	
+	#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    
+    background: #D56F4A;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(215, 111, 68, 0.8);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+</style>
+
+<script>
+/// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+</script>
 
 <div id="header">
 	<center>
@@ -133,8 +207,9 @@ $( document ).ready(function() {
 <a name="event"></a>
 </div>
 
-	<div id="contentContainer">
 
+	<div id="contentContainer">
+		
 		 <div id="sticker">
 			<a href="#event">Event</a> &bull;
 			<a href="#artists">Artists</a> &bull;
@@ -146,12 +221,15 @@ $( document ).ready(function() {
 			<a href="http://founders.ucsd.edu">Founders</a> &bull;
 			<a href="javascript:dd_scrolltotop()">Back to Top</a>
 		 </div>
+
 		 <div class="clear"></div>
 
 
 		<div class="contentPanel">
 
-			<h1>Event & Registration</h1>
+			<center>
+				<h1>Event & Registration</h1>
+			</center>
 
 			<div class="H12vid" style="display: none;">
 			<center>
@@ -226,8 +304,8 @@ $( document ).ready(function() {
 
 
 		<div class="contentPanel">
-
-			<h1>Artists</h1>
+			<center> <h1>Artists</h1> </center>
+			
 
 			<!--<div class="contentArtist" style="background: url('images/h14_artistcomingsoon.jpg');">
 				<h2>Lineup Coming Soon.</h2>
@@ -343,7 +421,7 @@ $( document ).ready(function() {
 
 		<div class="contentPanel">
 
-			<h1>Food</h1>
+		<center><h1>Food</h1> </center>			
 
 			<!--p>
 			Vendors will only be accepting cash!
@@ -352,7 +430,7 @@ $( document ).ready(function() {
 			<table class="contentRides">
 			<tr>
 				<td class="contentRides">
-				<img src="images/h16_food-tacovilla.jpg">
+				<img src="images/h16_food-tacovilla.jpg" style="max-width:100%;height:auto;>
 				<h2>Taco Villa</h2>
 				<div class="contentRidesIn">
 				<center>Pollo Asado<br>
@@ -362,7 +440,7 @@ $( document ).ready(function() {
 				</div>
 				</td>
 
-				<td class="contentRides">
+				<td class="contentRides" align="right">
 				<img src="images/h16_food-fotw.jpg">
 				<h2>HDH Flavors of the World</h2>
 				<div class="contentRidesIn">
@@ -409,7 +487,7 @@ $( document ).ready(function() {
 
 		<div class="contentPanel">
 
-			<h1>Amusements</h1>
+			<center><h1>Amusements</h1></center>
 
 			<p>
 			Here are some things you should know about the amusement rides:
@@ -467,80 +545,8 @@ $( document ).ready(function() {
 
 		<div class="contentPanel">
 
-			<!--h1>Student Orgs</h1>
 
-			<p>
-			If you are a student organization looking to recruit, fundraise, or raise awareness this year, apply for a free booth at Hullabaloo! We are looking for activity booths to complement the festival. Booth applications will be approved based upon creativity and time of receipt as spots are limited. Food distribution or sales will not be permitted.
-			</p>
-
-			<p>
-			As an extra bonus, there will be prizes for student orgs for the following categories:
-			</p>
-
-			<table width="300px">
-			<tr>
-				<td>
-				<b>$150</b>
-				</td>
-				<td>
-				Most Creative Booth Design
-				</td>
-			</tr>
-			<tr>
-				<td>
-				<b>$150</b>
-				</td>
-				<td>
-				Best Booth Activity
-				</td>
-			</tr>
-			<tr>
-				<td>
-				<b>$100</b>
-				</td>
-				<td>
-				Raffle Prize
-				</td>
-			</tr>
-			</table>
-
-			<p>
-			Here are some booth ideas to consider:
-			</p>
-
-			<table width="400px">
-			<tr>
-				<td>
-				<ul>
-				<li>Photo booth</li>
-				<li>Face painting</li>
-				<li>Prize wheel</li>
-				<li>Balloon animals</li>
-				<li>Arts and crafts</li>
-				<li>Fortune telling</li>
-				<li>Food vendor</li>
-				</ul>
-				</td>
-				<td>
-				<ul>
-				<li>Caricatures</li>
-				<li>Bean bag toss</li>
-				<li>Tic-tac-toe toss</li>
-				<li>Knock-the-bottle-pyramid</li>
-				<li>Ring toss</li>
-				<li>Mini basketball</li>
-				</ul>
-				</td>
-			</tr>
-			</table>
-
-			<p>
-			Please <a href='apps/h14_orgapp.pdf'>download the application</a> and turn it in at the ASCE office located on the fourth floor of Price Center or email it to ascefestivals@ucsd.edu. If you have any questions, feel free to email our Festivals Coordinator, <a href="mailto:seankennedy.ucsd@gmail.com">Sean</a>.
-			</p>
-
-			<br><br><br-->
-
-			<h1>Volunteers</h1>
+			<center><h1>Volunteers</h1></center>
 
 			<p>
 			Interested in volunteering at Hullabaloo?
@@ -562,7 +568,7 @@ $( document ).ready(function() {
 
 		<div class="contentPanel">
 
-			<h1>Health & Safety</h1>
+			<center><h1>Health & Safety</h1></center>
 
 			<p>
 			<h3>Drug Health and Safety</h3>
@@ -736,7 +742,7 @@ $( document ).ready(function() {
 
 		<div class="contentPanel">
 
-		<h1>Merchandise</h1>
+		<center><h1>Merchandise</h1></center>
 		<!--div class="contentArtist" style="background: url('images/h16_merchcomingsoon.jpg');">
 				<h2>Merch Coming Soon</h2>
 			</div>
