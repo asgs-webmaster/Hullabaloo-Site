@@ -98,7 +98,7 @@
 		}
 
 	#sticker a:hover:after{
-		width: 100%;
+		border-width: 100%;
 	}
 		
 	.stick {
