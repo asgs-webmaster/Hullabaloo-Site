@@ -77,6 +77,27 @@
 		o-transition: 0.2s all ease-in-out; */
 		}
 		
+	#sticker a:after{
+		content:"";
+		position: absolute;
+		z-index: -1;
+	    right: 0;
+	    width: 0;
+	    bottom: -5px;
+	    background: #000;
+	    height: 4px;
+	    transition-property: width;
+	    transition-duration: 0.3s;
+	    transition-timing-function: ease-out;
+		}
+
+	#sticker a:hover:after, a:focus:after, a:active:after{
+		left: 0;
+		right: auto;
+		width: 100%;
+	}
+
+	/*	
 	#sticker a:hover {
 		content: "";
 		position: absolute;
@@ -94,8 +115,8 @@
 		background-color: #401b35;
 		color: #000;
 		
-		text-shadow: 1px 1px #59244d;*/
-		}
+		text-shadow: 1px 1px #59244d;
+		}*/
 
 	#sticker a:hover:after{
 		border-width: 100%;
