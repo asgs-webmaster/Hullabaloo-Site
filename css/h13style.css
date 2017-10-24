@@ -70,16 +70,23 @@
 		display: inline-block;
 		color: #fff;
 		text-decoration: none;
-		-webkit-transition: 0.2s all ease-in-out; 
+		width:0px;
+		white-space: nowrap;
+		height: 25px;
+		border-bottom: 3px solid transparent;
+		transition: 0.5s ease;
+		/*-webkit-transition: 0.2s all ease-in-out; 
 		-moz-transition: 0.2s all ease-in-out; 
-		o-transition: 0.2s all ease-in-out; 
+		o-transition: 0.2s all ease-in-out; */
 		}
 
 	#sticker a:hover{
-		color:#fff;
+		border-bottom: 3px;
+		border-color: #fff;
+		width: 200px;
 	}
 
-	#sticker a:before{
+	/*#sticker a:before{
 		content:"";
 		position:absolute;
 		width: 100%;
@@ -106,8 +113,8 @@
 		background-color: #D76F44;
 		color: #260004;
 		text-decoration: none;
-		text-shadow: 1px 1px #59244d; */
-		}
+		text-shadow: 1px 1px #59244d; 
+		}*/
 
 	
 		
