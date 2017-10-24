@@ -75,6 +75,10 @@
 		o-transition: 0.2s all ease-in-out; 
 		}
 
+	#sticker a:hover{
+		color:#fff;
+	}
+
 	#sticker a:before{
 		content:"";
 		position:absolute;
@@ -104,6 +108,8 @@
 		text-decoration: none;
 		text-shadow: 1px 1px #59244d; */
 		}
+
+	
 		
 	.stick {
 		opacity: 0.8;
