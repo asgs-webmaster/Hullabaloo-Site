@@ -74,15 +74,35 @@
 		-moz-transition: 0.2s all ease-in-out; 
 		o-transition: 0.2s all ease-in-out; 
 		}
+
+	#sticker a:before{
+		content:"";
+		position:absolute;
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+		left:0;
+		background-color: #F4F4F4;
+		visibility: hidden;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transition: all 0.3s ease-in-out 0s;
+		transition: all 0.3 ease-in-out 0s;
+
+	}
 		
-	#sticker a:hover {
+	#sticker a:hover:before {
+		visibility: visible;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+		position: relative;
 		margin: 2px;
 		padding: 5px;
 		display: inline-block;
-		background-color: #000000;
-		color: #000;
+		/*background-color: #D76F44;
+		color: #260004;
 		text-decoration: none;
-		text-shadow: 1px 1px #59244d;
+		text-shadow: 1px 1px #59244d; */
 		}
 		
 	.stick {
