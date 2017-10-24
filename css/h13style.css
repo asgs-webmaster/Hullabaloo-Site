@@ -62,7 +62,7 @@
 		width: 860px;
 		padding:20px;
 		margin: 0px 0;
-		background: #000;
+		background: #D76F44;
 		}
 		
 	#sticker a:link, #sticker a:active, #sticker a:visited {
@@ -76,13 +76,11 @@
 		}
 		
 	#sticker a:hover {
-		/*margin: 0px;
-		padding: 8px;*/
 		display: inline-block;
-		background-color: #401b35;
+		background-color: #D76F44;
 		color: #000;
 		text-decoration: none;
-		text-shadow: 1px 1px #59244d;
+		text-shadow: 1px 1px #260004;
 		}
 		
 	.stick {
