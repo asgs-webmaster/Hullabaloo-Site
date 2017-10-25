@@ -55,7 +55,7 @@
 		margin: 40px auto; 
 		width: 900px; 
 		background: url('') center no-repeat;
-		}
+
 		
 	div#sticker {
 		z-index: 2000;
@@ -132,6 +132,7 @@
 		text-align: left;
 		text-transform: none;
 		}
+		
 		
 	.contentPanel h1 {
 		//display: block;
