@@ -5,17 +5,21 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
 
-		<script src="compiled/flipclock.js"></script>
 	</head>
 	<body>
 	
 	<!-- Display the countdown timer in an element -->
 
 		<center>
-			<div class="countdownWrapper">
-				<p id="demo"></p>
-			</div>
+		<img src="logo.png">
 		</center>
+
+
+		
+			<div class="countdownWrapper">
+				<p id="demo"></p>https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2
+			</div>
+		
 
 		<script>
 		// Set the date we're counting down to
@@ -37,7 +41,7 @@
 		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 		  // Display the result in the element with id="demo"
-		  document.getElementById("demo").innerHTML = days + "days " + hours + "h "
+		  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
 		  + minutes + "m " + seconds + "s ";
 
 		  // If the count down is finished, write some text 
@@ -47,6 +51,8 @@
 		  }
 		}, 1000);
 		</script>
+
+		<p class=subHead>Until Sungod Festival 2018</p>
 	
 	</body>
 </html>

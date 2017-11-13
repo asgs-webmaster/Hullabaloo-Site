@@ -1,14 +1,32 @@
 #demo{
 
-	font-size:60px;
+	font-size:80px;
 	font-family: 'Rubik Mono One', sans-serif;
+	color:#fff;
+	text-align:center;
+	margin-bottom:0px;
 }
 
 .countdownWrapper{
-	margin-top:25%;
+	margin-top:150px;
 
+}
+
+.subHead{
+
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+	margin-top:5px;
 }
 
 body{
 	background: #F4A2B4;
+}
+
+img{
+	margin-top: 100px;
+	margin-bottom:0px;
+	width: 40%;
 }
