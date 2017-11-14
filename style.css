@@ -1,7 +1,19 @@
+@font-face {
+  font-family: 'Qanelas-Bold';
+  src: url("fonts/QanelasSoft-ExtraBold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Qanelas-Regular';
+  src: url("fonts/QanelasSoft-Regular.otf");
+  font-weight: normal;
+}
+
 #demo{
 
 	font-size:90px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Qanelas-Bold', sans-serif;
 	color:#fff;
 	text-align:center;
 	margin-bottom:0px;
@@ -9,24 +21,24 @@
 }
 
 .countdownWrapper{
-	margin-top:150px;
+	margin-top:30px;
 
 }
 
 .subHead{
 
-	font-family: 'Poppins', sans-serif;
-	font-size: 35px;
+	font-family: 'Qanelas-Regular', sans-serif;
+	font-size: 30px;
 	text-align: center;
 	color: #fff;
 	margin-top:5px;
 	text-transform: uppercase;
-	color: #014477;
+	/*color: #014477;*/
 	letter-spacing: 3px;
 }
 
 body{
-	background: #0678CF;
+	background: #014477;
 }
 
 img{
