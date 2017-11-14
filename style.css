@@ -1,7 +1,7 @@
 #demo{
 
-	font-size:80px;
-	font-family: 'Rubik Mono One', sans-serif;
+	font-size:90px;
+	font-family: 'Poppins', sans-serif;
 	color:#fff;
 	text-align:center;
 	margin-bottom:0px;
@@ -15,15 +15,18 @@
 
 .subHead{
 
-	font-family: 'Rubik Mono One', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 35px;
 	text-align: center;
 	color: #fff;
 	margin-top:5px;
+	text-transform: uppercase;
+	color: #014477;
+	letter-spacing: 3px;
 }
 
 body{
-	background: #F4A2B4;
+	background: #0678CF;
 }
 
 img{
